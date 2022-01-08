@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [COLT Sanity]">
+  <test thread-count="5" name="My Store(failed)">
+    <classes>
+      <class name="Pages.My_Store_Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="setup"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Pages.My_Store_Login -->
+    </classes>
+  </test> <!-- My Store(failed) -->
+</suite> <!-- Failed suite [COLT Sanity] -->
