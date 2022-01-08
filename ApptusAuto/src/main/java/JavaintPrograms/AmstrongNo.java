@@ -18,7 +18,7 @@ public class AmstrongNo {
 	public static void IsAmsNumber(int n)
 	
 	{
-		System.out.println("Number inputed "+n);
+		System.out.println("Number inputed is "+n);
 		int cube=0;
 		int r,t;
 		t=n;
