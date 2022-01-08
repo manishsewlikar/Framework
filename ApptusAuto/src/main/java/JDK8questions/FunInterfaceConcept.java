@@ -33,7 +33,7 @@ public class FunInterfaceConcept {
 	{
 		StringBuffer sb= new StringBuffer("CVBP");
 		Function <String,Integer> func=x ->x.length();
-		int len=func.apply("Manishsewlikar");
+		int len=func.apply("ManishsewlikarLK");
 	System.out.println(sb.reverse());
 		//System.out.println(func.apply("RMAJ"));
 		Function<Integer, Integer> Func2=x -> x*2;
